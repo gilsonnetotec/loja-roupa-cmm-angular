@@ -55,4 +55,35 @@ $primary-color: #fff;
       outline: none;
     }
   }
+  .center{
+    margin-left: 4rem;
+    width: 25%;
+    #atendimento{
+      margin-top: 1rem;
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      border: #fff;
+      p{
+        color: $primary-color;
+        margin-left: 0.5rem;
+        font-size: 1rem;
+      }
+      img{
+        margin-top: 0.5rem;
+      }
+    }
+    #atendimento:hover {
+      border: 2px solid $primary-color; // Altere a cor e os estilos da borda conforme necessário
+    }
+    #atendimento:focus {
+      border: 0.1rem solid black; // Altere a cor e os estilos da borda conforme necessário
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+  }
+  .painel{
+    margin-left: 2rem;
+    width:35%;
+    float: right;
+  }
 }

@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-painel-header',
   templateUrl: './painel-header.component.html',
   styleUrls: ['./painel-header.component.scss']
 })
-export class PainelHeaderComponent {
+export class PainelHeaderComponent implements OnInit {
+  
+  searchText:string = '';
+
+
+  ngOnInit(): void{
+    console.log("Teste")
+  }
+
+searchChange(): void{
+  console.log('Input value changed:', this.searchText);
+}
 
 }

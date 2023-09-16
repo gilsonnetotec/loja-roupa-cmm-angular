@@ -3,8 +3,11 @@
     <input id="search-input" type="text" (ngModelChange)="searchCEPChange($event)" mask="00000-000" placeholder="Digite o seu CEP">
 </div>
 <div class="select">
-    <button>Feminino</button>
-    <button>Masculino</button>
-    <button>Infantil</button>
-    <button style="color:red;">OUTLET</button>
+    <button (click)="getFeminino()">Feminino</button>
+    <button (click)="getMasculino()">Masculino</button>
+    <button (click)="getInfantil()">Infantil</button>
+    <button style="color:red;" (click)="getOUTLET()">OUTLET</button>
+</div>
+<div class="cards-red">
+
 </div>

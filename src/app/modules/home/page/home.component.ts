@@ -10,4 +10,20 @@ export class HomeComponent {
   searchCEPChange(value: any): void{
     console.log(value)
   }
+
+  getFeminino(){
+    
+  }
+
+  getMasculino(){
+
+  }
+
+  getInfantil(){
+
+  }
+
+  getOUTLET(){
+    
+  }
 }

@@ -1,0 +1,50 @@
+*{
+    box-sizing: content-box;
+}
+
+$second-color: #000;
+
+.cep{
+    height: 5rem;
+    width: 12rem;
+    padding: 0.5rem;
+    float: left;
+    display: flex;
+    flex-direction: row;
+
+    img{
+       height: 2.5rem;
+       width: 2.5rem;
+       margin-left: 0.5rem;
+    }
+
+    input{
+        color: $second-color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 8rem;
+        height: 2rem;
+        background-color: transparent;
+        border: transparent;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    input::placeholder {
+        color: $second-color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 8rem;
+        height: 2rem;
+    }
+}

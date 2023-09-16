@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  searchCEPChange(value: any): void{
+    console.log(value)
+  }
 }

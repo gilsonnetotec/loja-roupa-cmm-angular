@@ -11,7 +11,7 @@ export class PainelHeaderComponent implements OnInit {
 
 
   ngOnInit(): void{
-    console.log("Teste")
+    
   }
 
 searchChange(): void{

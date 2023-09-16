@@ -34,7 +34,14 @@ $primary-color: #fff;
     height: 2.5rem;
     margin-top: 1.188rem;
     margin-left: 5.375rem;
-    
+    img{
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      left:40rem;
+      margin-top: 0.2rem;
+    }
+
     #search-input {
       width: 25rem;
       height: 1.875rem;
@@ -55,6 +62,15 @@ $primary-color: #fff;
     #search-input:focus {
       outline: none;
     }
+    #search-input::placeholder {
+       color: #000;
+       text-align: left;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
   .center{
     margin-left: 4rem;
@@ -74,6 +90,12 @@ $primary-color: #fff;
       border: #fff;
       p{
         color: $primary-color;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
         margin-left: 0.5rem;
         font-size: 1rem;
       }
@@ -98,7 +120,13 @@ $primary-color: #fff;
     h1{
       margin-top: 1.5rem;
       font-size: 1.5rem;
-      color: white;
+      color: $primary-color;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
       float: right;
     }
     #buy img {
@@ -123,6 +151,12 @@ $primary-color: #fff;
         color: $primary-color;
         margin-left: 0.5rem;
         font-size: 1rem;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
       }
       img{
         margin-top: 0.5rem;

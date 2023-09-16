@@ -1,4 +1,5 @@
 $primary-color: #fff;
+
 .main{
   display: flex;
   flex-direction: row;
@@ -58,7 +59,14 @@ $primary-color: #fff;
   .center{
     margin-left: 4rem;
     width: 25%;
+    box-sizing: border-box;
     #atendimento{
+      float: left;
+    }
+    #whatsApp{
+      float: right;
+    }
+    #atendimento, #whatsApp{
       margin-top: 1rem;
       background-color: transparent;
       display: flex;
@@ -73,17 +81,59 @@ $primary-color: #fff;
         margin-top: 0.5rem;
       }
     }
-    #atendimento:hover {
+    #atendimento:hover, #whatsApp:hover{
       border: 2px solid $primary-color; // Altere a cor e os estilos da borda conforme necessário
     }
-    #atendimento:focus {
+    #atendimento:focus, #whatsApp:focus {
       border: 0.1rem solid black; // Altere a cor e os estilos da borda conforme necessário
       box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     }
   }
   .painel{
+    width: 25%;
+    box-sizing: border-box;
     margin-left: 2rem;
     width:35%;
     float: right;
+    h1{
+      margin-top: 1.5rem;
+      font-size: 1.5rem;
+      color: white;
+      float: right;
+    }
+    #buy img {
+      max-width: 2rem; 
+      max-height: 2rem;
+      margin-top: 1.2rem;
+    }
+    #favorite{
+      margin-top: 0.7rem;
+    }
+    #user{
+      margin-top: 1.2rem;
+    }
+    button{
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      border: #fff;
+      margin-left: 0.5rem;
+      float: right;
+      p{
+        color: $primary-color;
+        margin-left: 0.5rem;
+        font-size: 1rem;
+      }
+      img{
+        margin-top: 0.5rem;
+      }
+    }
+    button:hover{
+      border: 2px solid $primary-color; // Altere a cor e os estilos da borda conforme necessário
+    }
+    button:focus {
+      border: 0.1rem solid black; // Altere a cor e os estilos da borda conforme necessário
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    }
   }
 }

@@ -1,3 +1,6 @@
+# Figma Protótipo
+https://www.figma.com/file/7nWeqXir4CJmMb8Q47CUrO/Loja-(Community)?node-id=56%3A115&mode=dev
+
 # Sandbox
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.

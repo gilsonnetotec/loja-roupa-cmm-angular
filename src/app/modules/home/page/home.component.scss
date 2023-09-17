@@ -88,7 +88,7 @@ $primary-color: #fff;
     }
 }
 
-.cards-red{
+.container-reds{
     height: 172px;
     margin-top: 2rem;
     margin-left: 8rem;
@@ -188,8 +188,32 @@ $primary-color: #fff;
     }
 }
 
-.card-pre{
-    width: 1445px;
+.container-pre{
     height: 304px;
-    background-color: blue;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 4rem;
+    background: #F9F1F1;
+    .card {
+        text-align: center;
+        h1{
+            color: $second-color;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        h2{
+            color: #E43795;
+            text-align: center;
+            font-family: Trade Winds;
+            font-size: 90px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+      }
 }

@@ -119,6 +119,17 @@ $primary-color: #fff;
                 line-height: normal;
             }
         }
+        #primary-2{
+            height: 90%;
+            h1{
+                color: $primary-color;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }        }
         #second{
             height: 10%;
             color: $primary-color;

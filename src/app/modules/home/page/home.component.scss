@@ -142,5 +142,25 @@ $primary-color: #fff;
             float: left;
             margin-left: 1rem;
         }
+        #half-column{
+            height:50%;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            color: $primary-color;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            img{
+                margin-top: 1rem;
+                width: 40%;
+                max-width: 100%;
+                height: auto; 
+                display: block;
+            }
+        }
     }
 }
